@@ -17,8 +17,12 @@
       margin: auto;
   }
   .carousel {
+  interval:0;
   width:100%;
   height:10%
+  }
+  body{
+  background-image: url("http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg")
   }
 	</style>
     <title>Coldplay</title>
@@ -35,31 +39,41 @@
   </head>
   <body>
   
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Coldplay</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="history.html">History</a></li>
-          <li><a href="discography.html">Discography</a></li>
-          <li>
-            <div class="dropdown">
-              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Social <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="https://twitter.com/coldplay" target="blank">Twitter</a></li>
-              <li><a href="https://www.facebook.com/coldplay/" target="blank">Facebook</a></li>
-              <li><a href="https://www.youtube.com/user/ColdplayVEVO" target="blank">YouTube</a></li>
-              </ul>
-            </div>
-		  </li>
-        </ul>
-      </div>
-    </nav>
+    <div>
+	  <nav class="navbar navbar-default navbar-fixed-top"style="">
+        <div class="container-fluid">
+          <div class="navbar-header">
+		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Coldplay</a>
+          </div>
+		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="history.html">History</a></li>
+              <li><a href="discography.html">Discography</a></li>
+              <li>
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">Social <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="https://twitter.com/coldplay" target="blank">Twitter</a></li>
+                  <li><a href="https://www.facebook.com/coldplay/" target="blank">Facebook</a></li>
+                  <li><a href="https://www.youtube.com/user/ColdplayVEVO" target="blank">YouTube</a></li>
+                  </ul>
+                </div>
+		      </li>
+            </ul>
+          </div>
+		<div>  
+      </nav>
+	</div>
 
-    <div class="container">
+    <div class="container"style="padding-top:5px;">
       <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h3>Column 1</h3>
@@ -116,7 +130,7 @@
         </div>
 
         <div class="item">
-        <img src="http://images.indianexpress.com/2016/02/coldplay-7592.jpg" style="height:100%;">
+        <img src="http://files.greatermedia.com/uploads/sites/13/2016/05/coldplay.jpg" style="height:100%;">
           <div class="carousel-caption">
             <h3>Flowers</h3>
             <p>Beatiful flowers in Kolymbari, Crete.</p>
@@ -124,10 +138,9 @@
         </div>
 
         <div class="item">
-          <img src="http://coldplay.com/wp-content/themes/ahfod/images/Coldplay_new2.gif" style="width:600px; height:600px;">
+          <img src="http://coldplay.com/wp-content/themes/ahfod/images/Coldplay_new2.gif" style="height:100%; padding-left:17%; padding-right:17%;">
           <div class="carousel-caption">
-            <h3>Flowers</h3>
-            <p>Beatiful flowers in Kolymbari, Crete.</p>
+            <h1 style="font-size:300%; color:green">LOGO</h1>
           </div>
         </div>
       </div>
@@ -142,6 +155,9 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+	<div class="row"style="padding-top:25px;">
+	    <img class="img-fluid" src="http://logonoid.com/images/coldplay-logo.png" style="display:block;margin:auto;border:10px solid black;border-radius:30px;width:50%;">
+	</div>
 	
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
